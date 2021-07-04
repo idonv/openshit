@@ -1,4 +1,4 @@
-FROM centos/nodejs-10-centos7
+FROM node:16.3-alpine3.11
 
 ENV PORT 8080
 
