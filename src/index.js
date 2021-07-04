@@ -3,9 +3,10 @@ const config = require('config');
 
 const PORT = process.env.PORT || 8080;
 
-// const conf = config.get('/etc/config/openshit-conf')
+const ido = config.get('ido')
+const test = config.get('test')
 
-// console.log(conf);
+console.log(ido, test);
 
 const app = express();
 
