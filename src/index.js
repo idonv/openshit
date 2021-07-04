@@ -3,9 +3,9 @@ const config = require('config');
 
 const PORT = process.env.PORT || 8080;
 
-const conf = config.get('/etc/config/openshit-conf')
+// const conf = config.get('/etc/config/openshit-conf')
 
-console.log(conf);
+// console.log(conf);
 
 const app = express();
 
