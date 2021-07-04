@@ -3,10 +3,10 @@ const config = require('config');
 
 const PORT = process.env.PORT || 8080;
 
-const ido = config.get('ido')
-const test = config.get('test')
+// const ido = config.get('ido')
+// const test = config.get('test')
 
-console.log(ido, test);
+// console.log(ido, test);
 
 const app = express();
 
