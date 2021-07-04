@@ -3,7 +3,7 @@ const config = require('config');
 
 const PORT = process.env.PORT || 8080;
 
-const conf = config.get('/etc/config/deployment.json')
+const conf = config.get('/etc/config/openshit-conf')
 
 console.log(conf);
 
