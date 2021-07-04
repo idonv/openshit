@@ -7,6 +7,7 @@ const ido = config.get('ido')
 const test = config.get('test')
 
 console.log(ido, test);
+console.log('NODE_ENV:', process.env.NODE_ENV);
 
 const app = express();
 
